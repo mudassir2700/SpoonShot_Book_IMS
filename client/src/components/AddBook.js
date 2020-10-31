@@ -83,7 +83,7 @@ class AddBook extends Component{
                 furi = furi+"+"+ur3;
             }
             //let k = "AIzaSyCeUVLi-7wSrosOtX7HNosszvYBqB6vu_U";
-            furi = furi+"&key=AIzaSyCeUVLi-7wSrosOtX7HNosszvYBqB6vu_U&maxResults=10";
+            furi = furi+"&key=yourApIKey";
             console.log(ur1);
             console.log(ur2);
             console.log(ur3);

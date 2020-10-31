@@ -268,7 +268,7 @@ class BookList extends Component{
         const url = "https://www.googleapis.com/books/v1/volumes?q="
         let x1=  this.state.searchvalue;
         let rx1 = x1.replaceAll(" ","+");
-        const fur1 = url+rx1+"&key=AIzaSyCeUVLi-7wSrosOtX7HNosszvYBqB6vu_U&maxResults=10";
+        const fur1 = url+rx1+"&key=yourApiKey";
 
         instance.get(fur1).then(res=>{
             //console.log(res.data.items);
